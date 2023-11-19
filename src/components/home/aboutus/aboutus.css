@@ -1,0 +1,36 @@
+.textContainer {
+    display: block;
+    padding: 10%;
+}
+
+.text {
+    text-align: justify;
+    text-justify: inter-word;
+    min-width: 300px;
+}
+
+.imageContainer {
+    display: flex;
+    justify-content: center;
+}
+
+.image {
+    padding-top: 30px;
+    width: 100%;
+}
+
+@media (min-width: 600px) {
+    .textContainer {
+        display: flex;
+        padding: 10%;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+
+    .image {
+        display: flex;
+        position: relative;
+        width: 200px;
+    }
+
+}

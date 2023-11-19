@@ -1,0 +1,25 @@
+.pricessContainer {
+    color: white;
+    text-shadow: 0 2px 4px rgb(0, 0, 0, 0.5);
+    background-position: center;
+    display: block;
+}
+
+.tableHeader {
+    text-align: center;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0, .4);
+}
+
+.priceText {
+    text-align: right;
+}
+
+.table {
+    border-spacing: 10px;
+    font-size: 25px;
+    padding: 5%;
+    text-align: left;
+
+    width: 100%;
+}

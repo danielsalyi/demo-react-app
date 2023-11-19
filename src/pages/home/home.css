@@ -1,0 +1,20 @@
+.header {
+    padding: 50px;
+    color: white;
+    text-shadow: 0 2px 4px rgb(0, 0, 0, 0.5);
+    font-size: 86px;
+}
+
+.content {
+    padding: 20px;
+}
+
+
+
+@media (min-width: 600px) {
+    .content {
+        padding: 10%;
+    }
+
+
+}
